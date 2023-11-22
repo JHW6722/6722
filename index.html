@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--SEO (Search Engine optimaization)  -->
+    <title>검뎅이가 꿈꾸는 유튜브</title>
+    <meta name="description" 
+    content="검뎅이가 꿈꾸는 유튜브에 대한 사이트"/>
+    <meta name="author" content="Kim_chung_ju"/>
+    <link rel="shortcut icon" href="images/basicprofilea.jpg" 
+    type="image/x-icon"/>
+
+    <!-- OG (Open graph Data) -->
+    <meta property="og:title" content="검뎅이가 꿈꾸는 유튜브"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="배포 후 주소 입력"/>
+    <meta property="og:image" content="배포 후 이미지 입력"/>
+
+    <!-- Google Font (구글 폰트 : 글씨체) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome (폰트 어썸 : 이미지 제공 서비스) -->
+    <script src="https://kit.fontawesome.com/1fbd5100da.js"
+    crossorigin="anonymous"></script>
+
+    <!-- CSS (씨에스에스 연결) -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Java Script (자바스크립트 연결) -->
+    <script type="module" src="src/main.js"
+    defer></script>
+</head>
+<body>
+    <!-- Header (맨 위에 상단 부분) -->
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo__img" src="images/basicprofilea.jpg" alt="logo">
+            <h1 class="header__logo__title">ile
+                <a href="#">검뎅이</a></h1>
+        </div>
+        <nav class="header__nav">  
+            <ul class="header__menu">
+                <li><a class="header__menu__item active" href="#home">홈</a></li>
+                <li><a class="header__menu__item" href="#about">소개</a></li>
+                <li><a class="header__menu__item" href="#skills">특징</a></li>
+                <li><a class="header__menu__item" href="#work">꿈을 위해 할 일</a></li>
+                <li><a class="header__menu__item" href="#testimonials">닮고싶은 인물</a></li>
+                <li><a class="header__menu__item" href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+        <button class="header__toggle" aria-label="navigation menu toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+    </header>
+    <!-- Main (전체적인 화면) -->
+    <main>
+        <!-- Home (홈) -->
+        <section id="home">
+            <div class="home__container">
+                <img class="home__avatar" 
+                src="images/basicprofilea.jpg" 
+                alt="my profile">
+                <h2 class="home__title">안녕하세요.<br> 
+                    검뎅이가 꿈꾸는 유튜브를 소개합니다.
+                </h2>
+                <p class="home__description">생생하게 꿈꾸면 현실이 된다.</p>
+                <a class="home__contact" href="#contact">연락하기</a>
+            </div>
+        </section>
+        <!-- About (소개) -->
+        <section id="about" class="section max-container">
+            <h2 class="title">소개</h2>
+            <p class="description">나는 세상에서 가장 훌륭한 사람입니다.<br>
+                나의 유튜브을 즐거운 영상으로 
+                가득 채우는 것이 목표입니다.<br>
+                내가 꿈꾸는 유튜브를 소개합니다.
+            </p>
+            <ul class="majors">
+                <li class="major">
+                    <i class="fa-solid fa-star major__icon"></i>
+                    <p class="major__title">첫번째 목표</p>
+                    <p>구독자 500명</p>
+                </li>
+                <li class="major">
+                    <i class="fa-regular fa-star major__icon"></i>
+                    <p class="major__title">두번째 목표</p>
+                    <p>구독자 1000명</p>
+                </li>
+                <li class="major">
+                    <i class="fa-solid fa-star-half-stroke major__icon"></i>
+                    <p class="major__title">세번째 목표</p>
+                    <p>수익 창출</p>
+                </li>
+            </ul>
+        </section>
+        <!-- Skills (특징) -->
+        <section id="skills" class="section">
+            <h2 class="title">특징</h2>
+            <p class="description">눙력치, 좋아하는 물건</p>
+            <p>나는 무엇을 잘하는 사람일까요? <br> 
+                나는 로블록스를 잘합니다 <br>
+                나는 마크도 좀 잘합니다 <br>
+                나는 발로란트는 못합니다
+            </p>
+            <div class="max-container">
+                <div class="skills">
+                    <section class="skills__coding">
+                        <h3 class="skills__title">능력치</h3>
+                        <ul>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>배드워즈</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 90%;">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>블레이드 볼</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 85%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>점프맵</span>
+                                    <span>70%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 70%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>코딩</span>
+                                    <span>63%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 63%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>유튜브</span>
+                                    <span>50%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 50%;"></div>
+                                </div>
+                            </li>
+                            <li class="bar">
+                                <div class="bar__metadata">
+                                    <span>발로란트</span>
+                                    <span>30%</span>
+                                </div>
+                                <div class="bar__bg">
+                                    <div class="bar__value" style="width: 30%;"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills__tools">
+                        <h3 class="skills__title">검뎅이</h3>
+                        <ul>
+                            <li>검</li>
+                            <li>뎅</li>
+                            <li>입</li>
+                            <li>니</li>
+                            <li>다</li>
+                        </ul>
+                    </section>
+                    <section class="skills__etc">
+                        <h3 class="skills__title">좋아하는 물건</h3>
+                        <ul>
+                            <li>컴퓨터</li>
+                            <li>핸드폰</li>
+                            <li>X</li>
+                            <li>X</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>            
+        </section>
+        <!-- Work (꿈을 위해 할 일) -->
+        <section id="work" class="section">
+            <div class="max-container">
+                <h2 class="title">목표를 위해 할 일</h2>
+                <p class="description">
+                    목표를 이루기 위해 필요한 일들
+                </p>
+                <ul class="categories">
+                    <li>
+                        <button class="category category--selected" data-category="all">ALL 
+                            <span class="category__count">8</span></button>
+                    </li>
+                    <li><button class="category" data-category="number1">할일1 <span class="category__count">3</span></button></li>
+                    <li><button class="category" data-category="number2">할일2 <span class="category__count">2</span></button></li>
+                    <li><button class="category" data-category="number3">할일3 <span class="category__count">3</span></button></li>
+                </ul>
+                <ul class="projects">
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                            <img src="images/30000.jpg" 
+                            alt="project1" 
+                            class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 1 ]</h3>
+                                <p>구독자 30000명</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                        <img src="images/bedwars.webp" 
+                        alt="project2" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 2 ]</h3>
+                                <p>배드워즈 실력 늘리기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number1">
+                        <a href="#" target="_blank">
+                        <img src="images/100.jpg" 
+                        alt="project3" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 3 ]</h3>
+                                <p>영상 100개 찍기</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number2">
+                        <a href="#" target="_blank">
+                        <img src="images/Ejrtkd.jpg" 
+                        alt="project4" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 4 ]</h3>
+                                <p>떡상 기원</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number2">
+                        <a href="#" target="_blank">
+                        <img src="images/1000.png" 
+                        alt="project5" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 5 ]</h3>
+                                <p>좋아요 1000개</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                        <img src="images/100,000.jpg" 
+                        alt="project6" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 6 ]</h3>
+                                <p>조회수 10만</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                            <img src="images/money.jfif" 
+                            alt="project7" 
+                            class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 7 ]</h3>
+                                <p>수익 창출</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="project" data-type="number3">
+                        <a href="#" target="_blank">
+                        <img src="images/X.jpg" 
+                        alt="project8" 
+                        class="project__img">
+                            <div class="project__metadata">
+                                <h3 class="project__title">[ 8 ]</h3>
+                                <p>X</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Testimonials (닮고싶은 인물) -->
+        <section id="testimonials" class="section max-container">
+            <h2 class="title">닮고 싶은 인물</h2>
+            <p class="description">내게 영감을 주는 사람들</p>
+            <ul class="testimonials">
+                <li class="testimonial">
+                    <img
+                    src="images/fhqnddl.png" 
+                    alt="people1"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>로붕이 / 
+                            내가 가장 좋아하는 유튜버 / 
+                            나도
+                            로붕이 처럼 유튜브를 운영하고 싶다.
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">로붕이</a>/유튜버</p>
+                    </div>
+                </li>
+                <li class="testimonial">
+                    <img 
+                    src="images/mrbeast.jfif" 
+                    alt="people2"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>미스터 비스트 / 
+                            가장 구독자가 많은 유튜버 / 
+                            나는
+                            미스터 비스트보다 구독자를 늘릴 것이다.
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">미스터 비스트</a>/유튜버</p>
+                    </div>
+                </li>
+                <li class="testimonial">
+                    <img 
+                    src="images/1ronmusk.jpeg" 
+                    alt="people3"
+                    class="testimonial__img">
+                    <div class="testimonial__bubble">
+                        <p>일론머스크 / 
+                            가장 돈이 많은 사람 / 
+                            나는
+                            수익 창출로 일론머스크보다 부자가 될 것이다.
+                        </p>
+                        <p><a href="#" 
+                            class="testimonial__bubble__name">일론머스크</a>/테슬라</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!-- Arrow up (무조건 맨 위로 가는 버튼) -->
+        <aside id="contact">
+            <a class="arrow-up" 
+            href="#" 
+            title="back to top">
+                <i class="fa-solid fa-arrow-up"></i> 
+            </a>
+        </aside>
+    </main>
+    <!-- Footer (맨 아래 부분 : 연락처) -->
+    <footer id="contact" class="section">
+        <div class="max-container">
+            <h2 class="title">문의 사항</h2>
+            <p class="description">Unknow [아직 문의주소 없움] @gmail.com</p>
+            <ul class="contact__links">
+                <li>
+                    <a class="contact__link" 
+                    href="https://www.youtube.com/@GumDeng2/about"
+                    target="_blank"
+                    title="My youtube">
+                    <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="contact__link" 
+                    href="https://youtube.com/@user-sr5zm7pt3g?feature=shared"
+                    target="_blank"
+                    title="DanJae Elementary School">
+                    <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>My YouTube /  DanJae Elementary School</p>
+        </div>
+    </footer>
+
+</body>
+</html>
